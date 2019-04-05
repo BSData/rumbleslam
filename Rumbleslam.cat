@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0ca5-c739-7be4-1abe" name="Rumbleslam" revision="1" battleScribeVersion="2.01" gameSystemId="0f82-4f53-3b21-639e" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="4d25-8052-4387-cb9d" name="Treeman" hidden="false" targetId="e4cf-bf93-cf16-5319" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f36e-83f7-9dfb-7325" name="Green Crables" hidden="false" targetId="8dfe-ad46-e9eb-1ac9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="52fe-823b-3e80-5ab5" name="Amazonian Grappler" hidden="false" targetId="91d4-61c1-1518-246b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6c69-7bf2-b474-60e6" name="Relentless Dosh (Wonderkid)" hidden="false" targetId="0d9f-6e90-3b02-8654" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ec81-7e09-5e9d-d833" name="Amazonian Brawler" hidden="false" targetId="d08c-f84f-0df6-a0b9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="811c-8330-ca20-5f1b" name="Relentless Dosh (Nasty Goad)" hidden="false" targetId="2c57-9ba0-c4c6-7874" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c8c7-bec9-c538-87e0" name="Re-Roll" hidden="false" targetId="c2d8-f77f-3eb8-2132" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8e80-4a23-907e-e0ff" name="Sprite Grappler" hidden="false" targetId="0184-aeea-4b71-9892" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="90f3-2b34-f902-fc73" name="Sprite Brawler" hidden="false" targetId="7a92-c0dc-470b-1dde" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fbb2-c567-8155-7ab2" name="Mana Mania Muscle Maker" hidden="false" targetId="531c-05d4-0b68-4b08" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="752e-a595-31d8-0c5b" name="Pythong" hidden="false" targetId="5c78-10e6-ce55-f79a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4b22-5616-a499-ce93" name="Trihorn" hidden="false" targetId="4edc-9d13-0917-59c6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bfdd-7db1-e1a2-054a" name="Shamblefist" hidden="false" targetId="b37f-a6a3-e521-c228" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="731b-5c8a-906b-c8e0" name="Dilomite Kid" hidden="false" targetId="e7fd-00e4-aeaf-2d87" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="94e7-e976-9f19-f5c4" name="Officer Reno" hidden="false" targetId="5843-ab9b-bd5b-dfcd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0dbc-ba71-0838-4814" name="Botticelli" hidden="false" targetId="dbd1-b11e-ae0b-6bf5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9739-1d12-f8a5-a9f1" name="Kalataur" hidden="false" targetId="e15c-5c38-0472-f971" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f187-4bb1-c858-eb86" name="Saurian Grappler" hidden="false" targetId="6004-966d-4b5c-71a4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="59f6-ed60-0950-76a2" name="Gekko Grappler" hidden="false" targetId="9c6a-cf5d-84d8-cc6e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="70b1-4a14-a9de-045a" name="Gekko Brawler" hidden="false" targetId="812e-f6bf-113a-c5a0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f638-eb52-177e-189e" name="Krux" hidden="false" targetId="3200-e4e6-0c8a-bb4d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cac7-4e7a-8e00-4e91" name="Saurian Brawler" hidden="false" targetId="c626-fa4f-b30e-ecab" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a1da-a070-420e-b5ca" name="Entertainer" hidden="false" targetId="0891-9724-2a3d-5375" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e034-9018-0b5f-c555" name="🌟 Comet" hidden="false" targetId="f8cb-5b07-9d9c-aa19" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9469-4674-6082-76d4" name="🌟 Caria" hidden="false" targetId="9ae8-7a02-368b-2536" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8b98-3d83-fb74-741d" name="🌟 Lord of Anarchy" hidden="false" targetId="31d8-df94-d9e3-160a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="004f-2759-f690-cb21" name="🌟 Chuck" hidden="false" targetId="1017-4c1e-a159-1b58" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5dc0-29ea-f8b7-df3a" name="🌟 Phage" hidden="false" targetId="4546-c83c-ffeb-5ae1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="771f-a1a6-fc29-f1f0" name="🌟 Jester" hidden="false" targetId="5e1f-afc3-cba3-892a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="13f1-2c3f-b4d1-1787" name="🌟 Gemini Twins (Pollux)" hidden="false" targetId="b8f9-c621-1ffd-6e88" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a3a9-bffb-3edd-c73e" name="🌟 Gemini Twins (Castor)" hidden="false" targetId="c3c6-89b0-de18-b5c0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="64b4-50da-13d3-f4e5" name="Gorgon" hidden="false" targetId="5f7f-d84c-b2f7-8d4c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="45a8-7b8f-cf64-5ccc" name="Female Brawler" hidden="false" targetId="8afe-702f-a552-1302" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8e49-13b6-41c5-b079" name="Dark Elf Brawler" hidden="false" targetId="bd9b-92e1-ba96-f2d4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c5e2-7497-2125-775f" name="Female Grappler" hidden="false" targetId="cb3b-dc14-e983-be64" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1117-45df-756c-2355" name="Shadowling Brawler" hidden="false" targetId="62a5-bfdc-992d-8a98" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5f3d-8e0d-8c3e-8dd6" name="Shadowling Grappler" hidden="false" targetId="aa68-fa09-9ef6-6543" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d5cc-71cf-13f2-5b64" name="🌟 Tartan" hidden="false" targetId="fe45-58ad-58b7-8dd4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6379-b7f2-7025-8849" name="Dark Elf Grappler" hidden="false" targetId="8665-4557-0a55-9766" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bda0-9514-26ec-6114" name="Ogress" hidden="false" targetId="bde9-3ae4-b2e5-58f5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a4c3-290b-d8a5-121a" name="High Flyer" hidden="false" targetId="4e1c-fee6-c8b0-6f8f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="87b4-8800-1e8b-241e" name="🌟 The Nut" hidden="false" targetId="186a-8d80-7e01-ca67" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0113-91a9-5c1a-b68f" name="🌟 Dragonbrawler (Wukong)" hidden="false" targetId="c264-0cf5-bfd0-146f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f0a0-59d1-bbae-26aa" name="🌟 Triple D" hidden="false" targetId="3ce9-344c-e9a4-0c23" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2df7-cf79-ae56-a253" name="🌟 Lumberjack" hidden="false" targetId="81db-6759-baa1-0e12" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="535b-5be8-6379-833b" name="🌟 Tavern" hidden="false" targetId="6a28-c045-0b29-d9e1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a67e-01ea-2168-ba00" name="🌟 Dragonbrawler (Shorts)" hidden="false" targetId="9365-bc34-d0a9-915b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="abb5-44f0-60eb-bdc2" name="🌟 The Greek" hidden="false" targetId="c05e-ea4f-b70b-0241" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="88f7-c692-5193-c4da" name="🌟 Gertha" hidden="false" targetId="4bed-9333-eefe-4b45" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="26cc-01d7-6ca8-e0c8" name="🌟 Vitamir" hidden="false" targetId="36d8-cbd2-72e3-f9ae" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0781-a238-0b49-d8fb" name="🌟 Ronnie Salvage" hidden="false" targetId="fef9-1591-7413-21cf" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9c66-5349-86e7-d3b1" name="Golem" hidden="false" targetId="21fb-3f6f-7dfc-464d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="60df-d0a3-e05c-e19d" name="🌟 Statesman" hidden="false" targetId="20f8-7c23-c456-364f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a4de-9f4d-a265-a302" name="Dwarf Mechanic" hidden="false" targetId="f080-b29c-407f-9913" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="25ca-8b0a-6e2a-6f04" name="Ogre" hidden="false" targetId="b192-b574-bada-6d60" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="268f-fc4b-0215-43dc" name="Halfing Grappler" hidden="false" targetId="6979-2c45-6d61-1b8f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ed15-dfb5-7fd4-0197" name="Glory Seeker" hidden="false" targetId="5205-dee4-41c0-4ec8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="81a1-c1d0-944c-b5a0" name="Halfing Brawler" hidden="false" targetId="d4be-e00b-1158-dc55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6313-1f92-9a11-5268" name="Human Grappler" hidden="false" targetId="c7f9-8a4a-d034-a517" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="85ad-93b2-8b4f-f891" name="Dwarf Grappler" hidden="false" targetId="7d28-2e93-0edf-dfcc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8870-b28d-b42d-43e1" name="Dwarf Brawler" hidden="false" targetId="11db-f1a1-7f8a-da7a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5d21-17a4-9b90-139a" name="Human Brawler" hidden="false" targetId="e715-ffa9-95fc-0c59" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c75a-9033-79fe-ab0f" name="🌟 Trojan " hidden="false" targetId="f8cb-7d31-54bd-358e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2a41-c2b5-785f-c502" name="Fable" hidden="false" targetId="f1a5-7ca6-f59c-5b19" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3245-d664-d3a5-efc2" name="🌟 Big Andy" hidden="false" targetId="7a17-4ad7-64e9-4177" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8a3a-f50b-0b4f-6f66" name="🌟 Ice" hidden="false" targetId="47f6-0c66-5e27-4d70" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="731d-6d76-c338-f671" name="🌟 The Thespain" hidden="false" targetId="8549-cacd-1d1a-3761" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cf63-f7d7-1f29-cf59" name="🌟 Granite" hidden="false" targetId="f2f9-21b3-7c73-2590" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="69d4-e50c-befb-4cbd" name="🌟 Henchilada" hidden="false" targetId="6443-f6ee-956d-de53" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="67fd-539c-aea1-d3ff" name="🌟 The Chief" hidden="false" targetId="b45b-394a-80e8-3335" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1a24-03ad-b5fa-6aa1" name="🌟 Mr. Hopper" hidden="false" targetId="15e3-7dc2-1288-36f5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d236-941e-f3f3-0f82" name="Big Punch" hidden="false" targetId="8b0d-4455-3c5f-5fbb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ec95-5653-584e-1942" name="Angry Pulcinella" hidden="false" targetId="98d4-db94-7eb1-0a6e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7162-1305-9185-2254" name="Pulcinella Bully" hidden="false" targetId="671d-143b-d927-f748" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0fcb-5b49-c561-2e43" name="Grumpy Pulcinella" hidden="false" targetId="398f-92c8-d35e-8e4c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b3a8-9744-daef-1a6c" name="Pulcinella Goon" hidden="false" targetId="d873-6cd0-2bb9-3909" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9970-c448-5bfe-33fc" name="🌟 Grave Digger" hidden="false" targetId="1017-e5d6-09ef-1925" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dca2-fb91-5982-0642" name="🌟 Gobba" hidden="false" targetId="01b2-d8d4-c36b-158c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="985c-6b3b-9df3-f5dc" name="🌟 Nobgoblins (Bill)" hidden="false" targetId="aee8-51f9-90f8-5007" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ad18-a4e5-23b9-723e" name="🌟 Orkishi" hidden="false" targetId="fd42-4543-8ed0-b123" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5d78-d800-2c12-ab31" name="🌟 Waaarrior" hidden="false" targetId="c527-10a8-36f3-fd3c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="16b0-aee8-b575-0c10" name="🌟 Nobgoblins (Bobby)" hidden="false" targetId="8276-ba57-968d-895b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5445-e1ea-8197-f858" name="🌟 Fang" hidden="false" targetId="d0e7-2c03-94fc-4c2d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f70f-377e-9d9a-0df9" name="🌟 Gun" hidden="false" targetId="7dc9-8078-0f59-68b4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="281c-f8cd-b943-a878" name="Troll" hidden="false" targetId="a9a9-11ba-d254-847e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="437b-a544-a144-eccc" name="Werewolf" hidden="false" targetId="2bd4-9aec-c79f-4c69" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="29a4-2680-291f-f1e9" name="Goblin Brawler" hidden="false" targetId="f758-569c-9db3-0d73" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="155d-819f-0a6b-58a0" name="Orc Grappler" hidden="false" targetId="cf6f-9266-a2db-7d62" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="630b-fd46-fd1a-709e" name="Skeleton" hidden="false" targetId="99f2-fbe7-95cb-e7ad" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fc30-b636-bb5b-5afc" name="🌟 Captain Keelhaul" hidden="false" targetId="95a2-2d2b-fa0e-288b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0c5b-82c5-26c2-e304" name="Orc Brawler" hidden="false" targetId="2c95-6d69-59eb-f389" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d9c1-247b-7579-24af" name="Goblin Grappler" hidden="false" targetId="fc2c-9e39-6cf6-c7d2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dd43-4b7c-5d4b-3900" name="Orc Skeleton" hidden="false" targetId="4d61-6557-96c1-308f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c958-fcca-4147-18a7" name="🌟  Marohackjob" hidden="false" targetId="a1a0-e225-7271-06da" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1a95-b7df-1f14-84ba" name="Zombie" hidden="false" targetId="e3fa-c513-3f48-43e9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9ff4-ca6e-850f-0630" name="Mummy" hidden="false" targetId="d7a6-d3d2-82d6-2693" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d3fd-40de-7421-24d7" name="🌟 Dicephaurux" hidden="false" targetId="d6bc-e44c-462b-aa64" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5b39-375a-c87b-c275" name="🌟 Great Jaw" hidden="false" targetId="63f2-82b7-132e-9900" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b147-9aa3-1071-cd40" name="🌟 Brothers Berserk (Claw)" hidden="false" targetId="57d6-3d11-ed6c-f1e6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="42ad-a977-cb76-2654" name="🌟 Baxter" hidden="false" targetId="cd88-5fbc-2a5c-4e6e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b7f7-a1c8-c6c9-5716" name="🌟 Mythos" hidden="false" targetId="e053-4ce5-410e-5fa6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f833-25b3-1da7-1624" name="🌟 Experiment 2186" hidden="false" targetId="0bae-31e6-d598-de46" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ee72-b273-99c9-16a8" name="🌟 Brothers Berserk (Squirm)" hidden="false" targetId="2b2f-6678-76f2-ac0b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ef35-ff4e-b160-5f06" name="Goatman Brawler" hidden="false" targetId="7487-e855-dd93-a22d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c9f6-82c3-859f-f618" name="Goatman Grappler" hidden="false" targetId="628e-e107-a89e-bb97" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="be58-fc5b-6424-ca07" name="🌟 Toothpick" hidden="false" targetId="0dc4-5af2-ccc1-8f9b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a5ef-9d36-8f86-73d8" name="🌟 Leo" hidden="false" targetId="012a-5dec-d026-c29e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="97a4-b2cd-ed0f-d64a" name="🌟 Rottgurt" hidden="false" targetId="84f4-8c97-3d04-9054" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="406f-3336-39df-fbbf" name="Rat Abomination" hidden="false" targetId="09b0-e69f-95c0-7212" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9162-5904-4961-ade7" name="Ratman Brawler" hidden="false" targetId="c34f-4a2b-c691-dc15" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0cea-2095-7f37-25fc" name="Ratman Grappler" hidden="false" targetId="0e53-a37f-1a9d-a71b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bbd3-8edb-bd2c-809a" name="Vermin Brawler" hidden="false" targetId="3838-f1d8-8982-252f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8f8a-bea3-e4f8-21ec" name="Barbarian Grappler" hidden="false" targetId="d778-3d62-0533-933e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="53e3-9569-2f1b-37c7" name="Barbarian Brawler" hidden="false" targetId="e838-13a3-c5bf-fdd1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="74bc-2119-7e7a-1652" name="Vermin Grappler" hidden="false" targetId="9f22-7318-4749-fe8b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="57d9-8472-664a-9287" name="Minotauer" hidden="false" targetId="2b97-de09-34e5-f8cc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3360-e620-b60f-8771" name="Woodland Wonder Sprite Steroids" hidden="false" targetId="71ca-237c-8ed7-c9f3" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bc3f-7f94-0568-2d61" name="Eagle Airways" hidden="false" targetId="68d8-fa1a-c4c8-8ce2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6fef-bf4c-4bb6-6fed" name="Snori´s Stoneskin Supplements" hidden="false" targetId="8dfd-f1ed-ef01-d4d0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fc42-a5b2-079b-c855" name="Tauron Tacos" hidden="false" targetId="0448-640f-07f8-a16d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4c25-d49c-6086-53a3" name="Phoenix Fizz" hidden="false" targetId="e31d-aafa-a905-895f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3ead-fe74-9d1e-e52a" name="Alchemist´s Guild Protein Potion" hidden="false" targetId="3dfb-e990-d765-7283" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="37ea-c642-68cf-ed93" name="Orka-Cola" hidden="false" targetId="f9c7-70ca-f0ae-6fdb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
