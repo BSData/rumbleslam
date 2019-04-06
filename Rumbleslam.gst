@@ -4,7 +4,7 @@
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="d2c8-a673-8ce2-e7d4" name="Punkte" defaultCostLimit="-1.0"/>
+    <costType id="d2c8-a673-8ce2-e7d4" name="k Dosh" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="eafa-6dbf-e712-a9bb" name="Stats">
@@ -314,7 +314,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d08c-f84f-0df6-a0b9" name="Amazonian Brawler" hidden="false" collective="false" type="model">
@@ -369,7 +369,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="91d4-61c1-1518-246b" name="Amazonian Grappler" hidden="false" collective="false" type="model">
@@ -424,7 +424,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dfe-ad46-e9eb-1ac9" name="🌟 Green Crables" hidden="false" collective="false" type="model">
@@ -481,7 +481,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2d8-f77f-3eb8-2132" name="Re-Roll" hidden="false" collective="false" type="upgrade">
@@ -545,7 +545,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="25.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d9f-6e90-3b02-8654" name="🌟 Relentless Dosh (Wonderkid)" hidden="false" collective="false" type="model">
@@ -607,9 +607,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b190-d980-c1b2-ceab" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c57-9ba0-c4c6-7874" name="🌟 Relentless Dosh (Nasty Goad)" hidden="false" collective="false" type="model">
@@ -671,9 +680,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="cfaf-1f0d-44ea-b963" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="531c-05d4-0b68-4b08" name="Mana Mania Muscle Maker" hidden="false" collective="false" type="upgrade">
@@ -747,7 +765,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0184-aeea-4b71-9892" name="Sprite Grappler" hidden="false" collective="false" type="model">
@@ -802,7 +820,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a92-c0dc-470b-1dde" name="Sprite Brawler" hidden="false" collective="false" type="model">
@@ -857,7 +875,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4edc-9d13-0917-59c6" name="🌟 Trihorn" hidden="false" collective="false" type="model">
@@ -914,7 +932,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="375.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="375.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5c78-10e6-ce55-f79a" name="🌟 Pythong" hidden="false" collective="false" type="model">
@@ -971,7 +989,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5843-ab9b-bd5b-dfcd" name="🌟 Officer Reno" hidden="false" collective="false" type="model">
@@ -1028,7 +1046,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7fd-00e4-aeaf-2d87" name="🌟 Dilomite Kid" hidden="false" collective="false" type="model">
@@ -1085,7 +1103,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b37f-a6a3-e521-c228" name="🌟 Shamblefist" hidden="false" collective="false" type="model">
@@ -1142,7 +1160,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e15c-5c38-0472-f971" name="🌟 Kalataur" hidden="false" collective="false" type="model">
@@ -1199,7 +1217,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbd1-b11e-ae0b-6bf5" name="🌟 Botticelli" hidden="false" collective="false" type="model">
@@ -1256,7 +1274,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3200-e4e6-0c8a-bb4d" name="🌟 Krux" hidden="false" collective="false" type="model">
@@ -1311,7 +1329,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c626-fa4f-b30e-ecab" name="Saurian Brawler" hidden="false" collective="false" type="model">
@@ -1366,7 +1384,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6004-966d-4b5c-71a4" name="Saurian Grappler" hidden="false" collective="false" type="model">
@@ -1421,7 +1439,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="812e-f6bf-113a-c5a0" name="Gekko Brawler" hidden="false" collective="false" type="upgrade">
@@ -1476,7 +1494,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c6a-cf5d-84d8-cc6e" name="Gekko Grappler" hidden="false" collective="false" type="upgrade">
@@ -1531,7 +1549,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0891-9724-2a3d-5375" name="Entertainer" hidden="false" collective="false" type="model">
@@ -1579,7 +1597,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4546-c83c-ffeb-5ae1" name="🌟 Phage" hidden="false" collective="false" type="model">
@@ -1636,7 +1654,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1017-4c1e-a159-1b58" name="🌟 Chuck" hidden="false" collective="false" type="upgrade">
@@ -1693,7 +1711,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e1f-afc3-cba3-892a" name="🌟 Jester" hidden="false" collective="false" type="model">
@@ -1750,7 +1768,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8cb-5b07-9d9c-aa19" name="🌟 Comet" hidden="false" collective="false" type="model">
@@ -1807,7 +1825,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31d8-df94-d9e3-160a" name="🌟 Lord of Anarchy" hidden="false" collective="false" type="model">
@@ -1864,7 +1882,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ae8-7a02-368b-2536" name="🌟 Caria" hidden="false" collective="false" type="model">
@@ -1921,7 +1939,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3c6-89b0-de18-b5c0" name="🌟 Gemini Twins (Castor)" hidden="false" collective="false" type="model">
@@ -1983,9 +2001,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8ac9-8869-ccd7-5909" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8f9-c621-1ffd-6e88" name="🌟 Gemini Twins (Pollux)" hidden="false" collective="false" type="model">
@@ -2047,9 +2074,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9991-fceb-0edc-eab6" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="186a-8d80-7e01-ca67" name="🌟 The Nut" hidden="false" collective="false" type="model">
@@ -2097,7 +2133,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe45-58ad-58b7-8dd4" name="🌟 Tartan" hidden="false" collective="false" type="model">
@@ -2145,7 +2181,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd9b-92e1-ba96-f2d4" name="Dark Elf Brawler" hidden="false" collective="false" type="upgrade">
@@ -2193,7 +2229,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8665-4557-0a55-9766" name="Dark Elf Grappler" hidden="false" collective="false" type="upgrade">
@@ -2241,7 +2277,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f7f-d84c-b2f7-8d4c" name="Gorgon" hidden="false" collective="false" type="model">
@@ -2296,7 +2332,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bde9-3ae4-b2e5-58f5" name="Ogress" hidden="false" collective="false" type="model">
@@ -2351,7 +2387,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e1c-fee6-c8b0-6f8f" name="High Flyer" hidden="false" collective="false" type="upgrade">
@@ -2406,7 +2442,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62a5-bfdc-992d-8a98" name="Shadowling Brawler" hidden="false" collective="false" type="model">
@@ -2461,7 +2497,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa68-fa09-9ef6-6543" name="Shadowling Grappler" hidden="false" collective="false" type="model">
@@ -2516,7 +2552,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8afe-702f-a552-1302" name="Female Brawler" hidden="false" collective="false" type="upgrade">
@@ -2571,7 +2607,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb3b-dc14-e983-be64" name="Female Grappler" hidden="false" collective="false" type="upgrade">
@@ -2626,7 +2662,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fef9-1591-7413-21cf" name="🌟 Ronnie Salvage" hidden="false" collective="false" type="model">
@@ -2683,7 +2719,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ce9-344c-e9a4-0c23" name="🌟 Triple D" hidden="false" collective="false" type="model">
@@ -2740,7 +2776,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36d8-cbd2-72e3-f9ae" name="🌟 Vitamir" hidden="false" collective="false" type="model">
@@ -2797,7 +2833,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c264-0cf5-bfd0-146f" name="🌟 Dragonbrawler (Wukong)" hidden="false" collective="false" type="model">
@@ -2859,9 +2895,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e18c-5cbc-942c-8954" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9365-bc34-d0a9-915b" name="🌟 Dragonbrawler (Shorts)" hidden="false" collective="false" type="model">
@@ -2923,9 +2968,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3212-af78-1087-a547" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21fb-3f6f-7dfc-464d" name="Golem" hidden="false" collective="false" type="model">
@@ -2980,7 +3034,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c05e-ea4f-b70b-0241" name="🌟 The Greek" hidden="false" collective="false" type="model">
@@ -3023,7 +3077,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81db-6759-baa1-0e12" name="🌟 Lumberjack" hidden="false" collective="false" type="model">
@@ -3080,7 +3134,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a28-c045-0b29-d9e1" name="🌟 Tavern" hidden="false" collective="false" type="model">
@@ -3137,7 +3191,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bed-9333-eefe-4b45" name="🌟 Gertha" hidden="false" collective="false" type="model">
@@ -3194,7 +3248,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20f8-7c23-c456-364f" name="🌟 Statesman" hidden="false" collective="false" type="upgrade">
@@ -3251,7 +3305,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e715-ffa9-95fc-0c59" name="Human Brawler" hidden="false" collective="false" type="model">
@@ -3306,7 +3360,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7f9-8a4a-d034-a517" name="Human Grappler" hidden="false" collective="false" type="model">
@@ -3361,7 +3415,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f080-b29c-407f-9913" name="Dwarf Mechanic" hidden="false" collective="false" type="model">
@@ -3416,7 +3470,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5205-dee4-41c0-4ec8" name="Glory Seeker" hidden="false" collective="false" type="model">
@@ -3471,7 +3525,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b192-b574-bada-6d60" name="Ogre" hidden="false" collective="false" type="model">
@@ -3526,7 +3580,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4be-e00b-1158-dc55" name="Halfing Brawler" hidden="false" collective="false" type="model">
@@ -3581,7 +3635,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6979-2c45-6d61-1b8f" name="Halfing Grappler" hidden="false" collective="false" type="model">
@@ -3636,7 +3690,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11db-f1a1-7f8a-da7a" name="Dwarf Brawler" book="" hidden="false" collective="false" type="model">
@@ -3691,7 +3745,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d28-2e93-0edf-dfcc" name="Dwarf Grappler" book="" hidden="false" collective="false" type="model">
@@ -3746,7 +3800,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6443-f6ee-956d-de53" name="🌟 Henchilada" hidden="false" collective="false" type="model">
@@ -3838,7 +3892,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8cb-7d31-54bd-358e" name="🌟 Trojan " hidden="false" collective="false" type="model">
@@ -3937,7 +3991,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b45b-394a-80e8-3335" name="🌟 The Chief" hidden="false" collective="false" type="model">
@@ -4029,7 +4083,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2f9-21b3-7c73-2590" name="🌟 Granite" hidden="false" collective="false" type="model">
@@ -4114,7 +4168,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1a5-7ca6-f59c-5b19" name="🌟 Fable" hidden="false" collective="false" type="model">
@@ -4206,7 +4260,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7a17-4ad7-64e9-4177" name="🌟 Big Andy" hidden="false" collective="false" type="model">
@@ -4298,7 +4352,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47f6-0c66-5e27-4d70" name="🌟 Ice" hidden="false" collective="false" type="model">
@@ -4390,7 +4444,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8549-cacd-1d1a-3761" name="🌟 The Thespain" hidden="false" collective="false" type="model">
@@ -4482,7 +4536,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15e3-7dc2-1288-36f5" name="🌟 Mr. Hopper" hidden="false" collective="false" type="model">
@@ -4539,7 +4593,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d873-6cd0-2bb9-3909" name="Pulcinella Goon" hidden="false" collective="false" type="model">
@@ -4594,7 +4648,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="671d-143b-d927-f748" name="Pulcinella Bully" hidden="false" collective="false" type="model">
@@ -4649,7 +4703,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="98d4-db94-7eb1-0a6e" name="Angry Pulcinella" hidden="false" collective="false" type="model">
@@ -4704,7 +4758,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="398f-92c8-d35e-8e4c" name="Grumpy Pulcinella" hidden="false" collective="false" type="model">
@@ -4759,7 +4813,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8b0d-4455-3c5f-5fbb" name="Big Punch" hidden="false" collective="false" type="model">
@@ -4814,7 +4868,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7dc9-8078-0f59-68b4" name="🌟 Gun" hidden="false" collective="false" type="model">
@@ -4871,7 +4925,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1017-e5d6-09ef-1925" name="🌟 Grave Digger" hidden="false" collective="false" type="model">
@@ -4928,7 +4982,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd42-4543-8ed0-b123" name="🌟 Orkishi" hidden="false" collective="false" type="model">
@@ -4985,7 +5039,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01b2-d8d4-c36b-158c" name="🌟 Gobba" hidden="false" collective="false" type="model">
@@ -5042,7 +5096,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c527-10a8-36f3-fd3c" name="🌟 Waaarrior" hidden="false" collective="false" type="model">
@@ -5099,7 +5153,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0e7-2c03-94fc-4c2d" name="🌟 Fang" hidden="false" collective="false" type="model">
@@ -5142,7 +5196,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aee8-51f9-90f8-5007" name="🌟 Nobgoblins (Bill)" hidden="false" collective="false" type="model">
@@ -5197,9 +5251,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="1daa-48da-f8c1-3d8a" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8276-ba57-968d-895b" name="🌟 Nobgoblins (Bobby)" hidden="false" collective="false" type="model">
@@ -5254,9 +5317,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="f255-8318-2b40-d47a" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1a0-e225-7271-06da" name="🌟  Marohackjob" hidden="false" collective="false" type="upgrade">
@@ -5313,7 +5385,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95a2-2d2b-fa0e-288b" name="🌟 Captain Keelhaul" hidden="false" collective="false" type="model">
@@ -5370,7 +5442,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c95-6d69-59eb-f389" name="Orc Brawler" hidden="false" collective="false" type="model">
@@ -5425,7 +5497,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf6f-9266-a2db-7d62" name="Orc Grappler" hidden="false" collective="false" type="model">
@@ -5480,7 +5552,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f758-569c-9db3-0d73" name="Goblin Brawler" hidden="false" collective="false" type="model">
@@ -5535,7 +5607,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc2c-9e39-6cf6-c7d2" name="Goblin Grappler" hidden="false" collective="false" type="model">
@@ -5590,7 +5662,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bd4-9aec-c79f-4c69" name="Werewolf" hidden="false" collective="false" type="model">
@@ -5645,7 +5717,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99f2-fbe7-95cb-e7ad" name="Skeleton" hidden="false" collective="false" type="upgrade">
@@ -5700,7 +5772,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="125.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d61-6557-96c1-308f" name="Orc Skeleton" hidden="false" collective="false" type="upgrade">
@@ -5755,7 +5827,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9a9-11ba-d254-847e" name="Troll" hidden="false" collective="false" type="upgrade">
@@ -5810,7 +5882,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7a6-d3d2-82d6-2693" name="Mummy" hidden="false" collective="false" type="upgrade">
@@ -5865,7 +5937,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3fa-c513-3f48-43e9" name="Zombie" hidden="false" collective="false" type="model">
@@ -5920,7 +5992,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="012a-5dec-d026-c29e" name="🌟 Leo" hidden="false" collective="false" type="model">
@@ -5977,7 +6049,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd88-5fbc-2a5c-4e6e" name="🌟 Baxter" hidden="false" collective="false" type="model">
@@ -6034,7 +6106,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dc4-5af2-ccc1-8f9b" name="🌟 Toothpick" hidden="false" collective="false" type="model">
@@ -6091,7 +6163,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63f2-82b7-132e-9900" name="🌟 Great Jaw" hidden="false" collective="false" type="model">
@@ -6148,7 +6220,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="57d6-3d11-ed6c-f1e6" name="🌟 Brothers Berserk (Claw)" hidden="false" collective="false" type="model">
@@ -6210,9 +6282,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="450d-e70f-e742-7c76" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b2f-6678-76f2-ac0b" name="🌟 Brothers Berserk (Squirm)" hidden="false" collective="false" type="upgrade">
@@ -6274,9 +6355,18 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="218a-67ad-f551-ca03" name="Tag Team" hidden="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bae-31e6-d598-de46" name="🌟 Experiment 2186" hidden="false" collective="false" type="model">
@@ -6333,7 +6423,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e053-4ce5-410e-5fa6" name="🌟 Mythos" hidden="false" collective="false" type="model">
@@ -6390,7 +6480,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84f4-8c97-3d04-9054" name="🌟 Rottgurt" hidden="false" collective="false" type="model">
@@ -6447,7 +6537,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6bc-e44c-462b-aa64" name="🌟 Dicephaurux" hidden="false" collective="false" type="model">
@@ -6504,7 +6594,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7487-e855-dd93-a22d" name="Goatman Brawler" hidden="false" collective="false" type="model">
@@ -6559,7 +6649,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="628e-e107-a89e-bb97" name="Goatman Grappler" hidden="false" collective="false" type="model">
@@ -6614,7 +6704,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e838-13a3-c5bf-fdd1" name="Barbarian Brawler" hidden="false" collective="false" type="model">
@@ -6669,7 +6759,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d778-3d62-0533-933e" name="Barbarian Grappler" hidden="false" collective="false" type="model">
@@ -6724,7 +6814,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3838-f1d8-8982-252f" name="Vermin Brawler" hidden="false" collective="false" type="model">
@@ -6779,7 +6869,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f22-7318-4749-fe8b" name="Vermin Grappler" hidden="false" collective="false" type="model">
@@ -6834,7 +6924,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09b0-e69f-95c0-7212" name="Rat Abomination" hidden="false" collective="false" type="upgrade">
@@ -6889,7 +6979,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c34f-4a2b-c691-dc15" name="Ratman Brawler" hidden="false" collective="false" type="model">
@@ -6944,7 +7034,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e53-a37f-1a9d-a71b" name="Ratman Grappler" hidden="false" collective="false" type="model">
@@ -6999,7 +7089,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b97-de09-34e5-f8cc" name="Minotauer" hidden="false" collective="false" type="model">
@@ -7054,7 +7144,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3dfb-e990-d765-7283" name="Alchemist´s Guild Protein Potion" hidden="false" collective="false" type="upgrade">
@@ -7128,7 +7218,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8dfd-f1ed-ef01-d4d0" name="Snori´s Stoneskin Supplements" hidden="false" collective="false" type="upgrade">
@@ -7209,7 +7299,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71ca-237c-8ed7-c9f3" name="Woodland Wonder Sprite Steroids" hidden="false" collective="false" type="upgrade">
@@ -7290,7 +7380,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e31d-aafa-a905-895f" name="Phoenix Fizz" hidden="false" collective="false" type="upgrade">
@@ -7371,7 +7461,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9c7-70ca-f0ae-6fdb" name="Orka-Cola" hidden="false" collective="false" type="upgrade">
@@ -7452,7 +7542,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68d8-fa1a-c4c8-8ce2" name="Eagle Airways" hidden="false" collective="false" type="upgrade">
@@ -7533,7 +7623,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0448-640f-07f8-a16d" name="Tauron Tacos" hidden="false" collective="false" type="upgrade">
@@ -7614,11 +7704,40 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Punkte" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
+        <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups/>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="61f1-8420-982a-8435" name="Tag Team" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="ebf8-f521-e564-2fb6" name="Traditional Tag Team" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d7-eabb-a8ec-1d29" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="k Dosh" costTypeId="d2c8-a673-8ce2-e7d4" value="-75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles/>
 </gameSystem>
