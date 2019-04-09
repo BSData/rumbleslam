@@ -193,7 +193,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="864c-2cac-4c04-eb37" name="Sponsorship" hidden="false" targetId="345c-b6bf-7d0c-daea" primary="false">
+        <categoryLink id="e854-e3aa-9286-a467" name="Sponsorship" hidden="false" targetId="345c-b6bf-7d0c-daea" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
