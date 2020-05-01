@@ -3,7 +3,7 @@ Rumbleslam
 
 Bug-Report:
 
-https://discord.gg/RGH7Nq
+https://discord.gg/deVyWbg
 
 
 
