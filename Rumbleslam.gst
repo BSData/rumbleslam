@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0f82-4f53-3b21-639e" name="Rumbleslam" revision="1" battleScribeVersion="2.02" authorName="Kuina" authorContact="https://discord.gg/kRffh9b" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0f82-4f53-3b21-639e" name="Rumbleslam" revision="2" battleScribeVersion="2.03" authorName="Kuina" authorContact="https://discord.gg/kRffh9b" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="d2c8-a673-8ce2-e7d4" name="k Dosh" defaultCostLimit="-1.0"/>
+    <costType id="d2c8-a673-8ce2-e7d4" name="k Dosh" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="eafa-6dbf-e712-a9bb" name="Stats">
@@ -85,7 +85,7 @@
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="e4cf-bf93-cf16-5319" name="Treeman" page="" hidden="false" collective="false" type="model">
+    <selectionEntry id="e4cf-bf93-cf16-5319" name="Treeman" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="69a7-646f-5922-3c37" name="Treeman" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -111,7 +111,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d08c-f84f-0df6-a0b9" name="Amazonian Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="d08c-f84f-0df6-a0b9" name="Amazonian Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="c4b8-2aec-b9b6-4044" name="Amazonian Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -137,7 +137,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="91d4-61c1-1518-246b" name="Amazonian Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="91d4-61c1-1518-246b" name="Amazonian Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="5992-c377-cc84-063e" name="Amazonian Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -163,12 +163,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8dfe-ad46-e9eb-1ac9" name="🌟 Green Crables" hidden="false" collective="false" type="model">
+    <selectionEntry id="8dfe-ad46-e9eb-1ac9" name="Green Crables" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5517-d200-db64-67dc" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0490-6f04-9ed0-4038" name="🌟 Green Crables" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="0490-6f04-9ed0-4038" name="Green Crables" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GC</characteristic>
@@ -192,7 +192,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2d8-f77f-3eb8-2132" name="Re-Roll" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c2d8-f77f-3eb8-2132" name="Re-Roll" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="1adc-819e-d37f-06a6" name="New CategoryLink" hidden="false" targetId="e865-26d0-c22d-0517" primary="true"/>
         <categoryLink id="042e-e1bf-a9bc-5de8" name="The Forest Soul" hidden="false" targetId="4c6e-5e72-ffe0-cb66" primary="false"/>
@@ -206,12 +206,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d9f-6e90-3b02-8654" name="🌟 Relentless Dosh (Wonderkid)" hidden="false" collective="false" type="model">
+    <selectionEntry id="0d9f-6e90-3b02-8654" name="Relentless Dosh (Wonderkid)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e518-de67-e1d5-aaa3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ef84-4a9c-3386-8484" name="🌟 Wonderkid" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="ef84-4a9c-3386-8484" name="Wonderkid" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -233,18 +233,18 @@
         <categoryLink id="3099-a456-e430-542f" name="Superstar" hidden="false" targetId="207c-b6a1-58ef-81f6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b190-d980-c1b2-ceab" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="b190-d980-c1b2-ceab" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c57-9ba0-c4c6-7874" name="🌟 Relentless Dosh (Nasty Goad)" hidden="false" collective="false" type="model">
+    <selectionEntry id="2c57-9ba0-c4c6-7874" name="Relentless Dosh (Nasty Goad)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="508e-68f2-eab5-0bb2" type="max"/>
       </constraints>
       <profiles>
-        <profile id="731f-7307-47d6-1892" name="🌟 Nasty Goad" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="731f-7307-47d6-1892" name="Nasty Goad" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">G</characteristic>
@@ -266,13 +266,13 @@
         <categoryLink id="92a4-2da9-7b19-c71c" name="Superstar" hidden="false" targetId="207c-b6a1-58ef-81f6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cfaf-1f0d-44ea-b963" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="cfaf-1f0d-44ea-b963" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="531c-05d4-0b68-4b08" name="Mana Mania Muscle Maker" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="531c-05d4-0b68-4b08" name="Mana Mania Muscle Maker" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="0a41-dec9-f069-baaf" name="Mana Mania Muscle Maker" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -293,7 +293,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0184-aeea-4b71-9892" name="Sprite Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="0184-aeea-4b71-9892" name="Sprite Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f048-edce-01b3-ba3a" name="Sprite Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -319,7 +319,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a92-c0dc-470b-1dde" name="Sprite Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="7a92-c0dc-470b-1dde" name="Sprite Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="09f5-f7d9-edee-caed" name="Sprite Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -345,12 +345,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4edc-9d13-0917-59c6" name="🌟 Trihorn" hidden="false" collective="false" type="model">
+    <selectionEntry id="4edc-9d13-0917-59c6" name="Trihorn" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e2e-468b-42f0-ada0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cc56-da5c-c3aa-afad" name="🌟 Trihorn" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="cc56-da5c-c3aa-afad" name="Trihorn" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG</characteristic>
@@ -374,12 +374,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="375.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c78-10e6-ce55-f79a" name="🌟 Pythong" hidden="false" collective="false" type="model">
+    <selectionEntry id="5c78-10e6-ce55-f79a" name="Pythong" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f7-4a8f-4fb9-e5df" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c98d-dbe8-775c-ca90" name="🌟 Pythong" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="c98d-dbe8-775c-ca90" name="Pythong" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -403,12 +403,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5843-ab9b-bd5b-dfcd" name="🌟 Officer Reno" hidden="false" collective="false" type="model">
+    <selectionEntry id="5843-ab9b-bd5b-dfcd" name="Officer Reno" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b872-bc9f-7698-ff56" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b0e6-cad6-6a5e-d6ac" name="🌟 Officer Reno" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="b0e6-cad6-6a5e-d6ac" name="Officer Reno" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS</characteristic>
@@ -432,12 +432,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7fd-00e4-aeaf-2d87" name="🌟 Dilomite Kid" hidden="false" collective="false" type="model">
+    <selectionEntry id="e7fd-00e4-aeaf-2d87" name="Dilomite Kid" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b4-7e66-b6a8-2c1a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="da40-a381-4ef8-bb80" name="🌟 Dilomite Kid" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="da40-a381-4ef8-bb80" name="Dilomite Kid" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SC+1</characteristic>
@@ -461,12 +461,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b37f-a6a3-e521-c228" name="🌟 Shamblefist" hidden="false" collective="false" type="model">
+    <selectionEntry id="b37f-a6a3-e521-c228" name="Shamblefist" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4e-e13f-18b3-a348" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8dbf-2aac-b10c-14d8" name="🌟 Shamblefist" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="8dbf-2aac-b10c-14d8" name="Shamblefist" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG+1</characteristic>
@@ -490,12 +490,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e15c-5c38-0472-f971" name="🌟 Kalataur" hidden="false" collective="false" type="model">
+    <selectionEntry id="e15c-5c38-0472-f971" name="Kalataur" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5f-e8ab-30c3-71f6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="113f-0546-970e-6fbd" name="🌟 Kalataur" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="113f-0546-970e-6fbd" name="Kalataur" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -519,12 +519,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbd1-b11e-ae0b-6bf5" name="🌟 Botticelli" hidden="false" collective="false" type="model">
+    <selectionEntry id="dbd1-b11e-ae0b-6bf5" name="Botticelli" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b648-abf7-d850-6aef" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5608-9ed7-cbe1-13e6" name="🌟 Botticelli" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="5608-9ed7-cbe1-13e6" name="Botticelli" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG</characteristic>
@@ -548,9 +548,9 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3200-e4e6-0c8a-bb4d" name="🌟 Krux" hidden="false" collective="false" type="model">
+    <selectionEntry id="3200-e4e6-0c8a-bb4d" name="Krux" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5d5c-a5ea-e158-2f79" name="🌟 Krux" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="5d5c-a5ea-e158-2f79" name="Krux" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS+1</characteristic>
@@ -574,7 +574,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c626-fa4f-b30e-ecab" name="Saurian Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="c626-fa4f-b30e-ecab" name="Saurian Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="fde3-6c99-8f89-f3ad" name="Saurian Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -600,7 +600,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6004-966d-4b5c-71a4" name="Saurian Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="6004-966d-4b5c-71a4" name="Saurian Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f8d8-b9d7-1e58-cec6" name="Saurian Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -626,7 +626,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="812e-f6bf-113a-c5a0" name="Gekko Brawler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="812e-f6bf-113a-c5a0" name="Gekko Brawler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="3172-c66d-fb67-00ed" name="Gekko Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -652,7 +652,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c6a-cf5d-84d8-cc6e" name="Gekko Grappler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9c6a-cf5d-84d8-cc6e" name="Gekko Grappler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cf1e-3e2f-c8ff-aad0" name="Gekko Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -678,7 +678,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0891-9724-2a3d-5375" name="Entertainer" hidden="false" collective="false" type="model">
+    <selectionEntry id="0891-9724-2a3d-5375" name="Entertainer" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b5f8-98c2-2ec5-af7f" name="Entertainer" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -703,12 +703,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4546-c83c-ffeb-5ae1" name="🌟 Phage" hidden="false" collective="false" type="model">
+    <selectionEntry id="4546-c83c-ffeb-5ae1" name="Phage" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9677-1a55-c5d0-3d4b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7dda-d191-8824-be39" name="🌟 Phage" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="7dda-d191-8824-be39" name="Phage" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GC</characteristic>
@@ -732,12 +732,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1017-4c1e-a159-1b58" name="🌟 Chuck" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1017-4c1e-a159-1b58" name="Chuck" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb3-2d24-0beb-45cb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f051-0598-a9e3-28f7" name="🌟 Chuck" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="f051-0598-a9e3-28f7" name="Chuck" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -761,12 +761,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e1f-afc3-cba3-892a" name="🌟 Jester" hidden="false" collective="false" type="model">
+    <selectionEntry id="5e1f-afc3-cba3-892a" name="Jester" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a0-e95f-aa0c-6f2f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0491-7d9c-ff28-9bd5" name="🌟 Jester" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="0491-7d9c-ff28-9bd5" name="Jester" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG+1</characteristic>
@@ -790,12 +790,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eaff-0da0-3c40-33ed" name="🌟 Comet" hidden="false" collective="false" type="model">
+    <selectionEntry id="eaff-0da0-3c40-33ed" name="Comet" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e648-3623-2845-28df" type="max"/>
       </constraints>
       <profiles>
-        <profile id="de5d-7257-a132-05e6" name="🌟 Comet" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="de5d-7257-a132-05e6" name="Comet" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GC</characteristic>
@@ -819,12 +819,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31d8-df94-d9e3-160a" name="🌟 Lord of Anarchy" hidden="false" collective="false" type="model">
+    <selectionEntry id="31d8-df94-d9e3-160a" name="Lord of Anarchy" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7e-e52c-5ffa-03b5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e3a8-0e82-7bc1-1f0d" name="🌟 Lord of Anarchy" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="e3a8-0e82-7bc1-1f0d" name="Lord of Anarchy" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSC</characteristic>
@@ -848,12 +848,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ae8-7a02-368b-2536" name="🌟 Caria" hidden="false" collective="false" type="model">
+    <selectionEntry id="9ae8-7a02-368b-2536" name="Caria" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5002-e4c5-9fac-55c6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dde4-20f7-0ae8-a094" name="🌟 Caria" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="dde4-20f7-0ae8-a094" name="Caria" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">G+1</characteristic>
@@ -877,12 +877,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3c6-89b0-de18-b5c0" name="🌟 Gemini Twins (Castor)" hidden="false" collective="false" type="model">
+    <selectionEntry id="c3c6-89b0-de18-b5c0" name="Gemini Twins (Castor)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4970-395a-3f2b-f2e4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b3af-09d3-d218-e1b5" name="🌟 Gemini Twins (Castor)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="b3af-09d3-d218-e1b5" name="Gemini Twins (Castor)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -904,18 +904,18 @@
         <categoryLink id="135b-786e-1f3f-f4ca" name="Small" hidden="false" targetId="e37a-e634-304f-58d6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="8ac9-8869-ccd7-5909" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="8ac9-8869-ccd7-5909" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b8f9-c621-1ffd-6e88" name="🌟 Gemini Twins (Pollux)" hidden="false" collective="false" type="model">
+    <selectionEntry id="b8f9-c621-1ffd-6e88" name="Gemini Twins (Pollux)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0b-046a-da01-9bf4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e082-aca9-8de6-84cd" name="🌟 Gemini Twins (Pollux)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="e082-aca9-8de6-84cd" name="Gemini Twins (Pollux)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">S</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -937,15 +937,15 @@
         <categoryLink id="bada-0f14-cfc5-7688" name="Tag Team" hidden="false" targetId="707c-0396-6935-41cc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="9991-fceb-0edc-eab6" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="9991-fceb-0edc-eab6" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="186a-8d80-7e01-ca67" name="🌟 The Nut" hidden="false" collective="false" type="model">
+    <selectionEntry id="186a-8d80-7e01-ca67" name="The Nut" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6034-ebd3-fcd3-e6f9" name="🌟 The Nut" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6034-ebd3-fcd3-e6f9" name="The Nut" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SCC</characteristic>
@@ -968,9 +968,9 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe45-58ad-58b7-8dd4" name="🌟 Tartan" hidden="false" collective="false" type="model">
+    <selectionEntry id="fe45-58ad-58b7-8dd4" name="Tartan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="91fa-e42e-04a6-3cef" name="🌟 Tartan" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="91fa-e42e-04a6-3cef" name="Tartan" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS+1</characteristic>
@@ -993,7 +993,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd9b-92e1-ba96-f2d4" name="Dark Elf Brawler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="bd9b-92e1-ba96-f2d4" name="Dark Elf Brawler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="97da-3b71-829b-4a79" name="Dark Elf Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1018,7 +1018,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8665-4557-0a55-9766" name="Dark Elf Grappler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8665-4557-0a55-9766" name="Dark Elf Grappler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="1c73-8a60-a9a7-06a8" name="Dark Elf Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1043,7 +1043,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5f7f-d84c-b2f7-8d4c" name="Gorgon" hidden="false" collective="false" type="model">
+    <selectionEntry id="5f7f-d84c-b2f7-8d4c" name="Gorgon" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="d37e-3b54-f24c-e063" name="Gorgon" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1069,7 +1069,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bde9-3ae4-b2e5-58f5" name="Ogress" hidden="false" collective="false" type="model">
+    <selectionEntry id="bde9-3ae4-b2e5-58f5" name="Ogress" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="7712-93c4-7ca2-d583" name="Ogress" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1095,7 +1095,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e1c-fee6-c8b0-6f8f" name="High Flyer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4e1c-fee6-c8b0-6f8f" name="High Flyer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="aceb-f42f-8857-a7b2" name="High Flyer" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1121,7 +1121,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62a5-bfdc-992d-8a98" name="Shadowling Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="62a5-bfdc-992d-8a98" name="Shadowling Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="21d1-99ae-f5a5-f567" name="Shadowling Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1147,7 +1147,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa68-fa09-9ef6-6543" name="Shadowling Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="aa68-fa09-9ef6-6543" name="Shadowling Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="f127-ba9c-672e-db26" name="Shadowling Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1173,7 +1173,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8afe-702f-a552-1302" name="Female Brawler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8afe-702f-a552-1302" name="Female Brawler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="cd0c-a877-ae43-41c6" name="Female Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1199,7 +1199,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb3b-dc14-e983-be64" name="Female Grappler" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cb3b-dc14-e983-be64" name="Female Grappler" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="174a-9840-956a-3761" name="Female Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1225,12 +1225,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fef9-1591-7413-21cf" name="🌟 Ronnie Salvage" hidden="false" collective="false" type="model">
+    <selectionEntry id="fef9-1591-7413-21cf" name="Ronnie Salvage" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f0-faaf-35d1-2654" type="max"/>
       </constraints>
       <profiles>
-        <profile id="adb3-1432-7d66-3d4a" name="🌟 Ronnie Salvage" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="adb3-1432-7d66-3d4a" name="Ronnie Salvage" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -1254,12 +1254,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ce9-344c-e9a4-0c23" name="🌟 Triple D" hidden="false" collective="false" type="model">
+    <selectionEntry id="3ce9-344c-e9a4-0c23" name="Triple D" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7893-ed45-8cf6-c784" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1b4e-80e3-2cf4-cce4" name="🌟 Triple D" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="1b4e-80e3-2cf4-cce4" name="Triple D" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS</characteristic>
@@ -1283,12 +1283,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36d8-cbd2-72e3-f9ae" name="🌟 Vitamir" hidden="false" collective="false" type="model">
+    <selectionEntry id="36d8-cbd2-72e3-f9ae" name="Vitamir" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b657-0432-641b-218c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d1de-ccf8-6cb1-b4d0" name="🌟 Vitamir" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="d1de-ccf8-6cb1-b4d0" name="Vitamir" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS</characteristic>
@@ -1312,12 +1312,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c264-0cf5-bfd0-146f" name="🌟 Dragonbrawler (Wukong)" hidden="false" collective="false" type="model">
+    <selectionEntry id="c264-0cf5-bfd0-146f" name="Dragonbrawler (Wukong)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f75-e8cf-dcf1-3a91" type="max"/>
       </constraints>
       <profiles>
-        <profile id="eb59-d282-80ba-6905" name="🌟 Dragonbrawler (Wukong)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="eb59-d282-80ba-6905" name="Dragonbrawler (Wukong)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -1339,18 +1339,18 @@
         <categoryLink id="9448-472f-0a2b-e5a7" name="Tag Team" hidden="false" targetId="707c-0396-6935-41cc" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e18c-5cbc-942c-8954" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="e18c-5cbc-942c-8954" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9365-bc34-d0a9-915b" name="🌟 Dragonbrawler (Shorts)" hidden="false" collective="false" type="model">
+    <selectionEntry id="9365-bc34-d0a9-915b" name="Dragonbrawler (Shorts)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f1-3530-0bdd-aed1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6bb0-e468-0fcb-25fd" name="🌟 Dragonbrawler (Shorts)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6bb0-e468-0fcb-25fd" name="Dragonbrawler (Shorts)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS+1</characteristic>
@@ -1372,13 +1372,13 @@
         <categoryLink id="ca2e-8993-696f-8b0c" name="Small" hidden="false" targetId="e37a-e634-304f-58d6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3212-af78-1087-a547" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="3212-af78-1087-a547" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21fb-3f6f-7dfc-464d" name="Golem" hidden="false" collective="false" type="model">
+    <selectionEntry id="21fb-3f6f-7dfc-464d" name="Golem" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4cbd-077a-893c-2ac2" name="Golem" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1404,12 +1404,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c05e-ea4f-b70b-0241" name="🌟 The Greek" hidden="false" collective="false" type="model">
+    <selectionEntry id="c05e-ea4f-b70b-0241" name="The Greek" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4211-6ed8-a0a8-c04b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2b71-673d-fdb1-7780" name="🌟 The Greek" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="2b71-673d-fdb1-7780" name="The Greek" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS+1</characteristic>
@@ -1431,12 +1431,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81db-6759-baa1-0e12" name="🌟 Lumberjack" hidden="false" collective="false" type="model">
+    <selectionEntry id="81db-6759-baa1-0e12" name="Lumberjack" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8957-c2d5-f938-6541" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d674-6671-1690-d318" name="🌟 Lumberjack" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="d674-6671-1690-d318" name="Lumberjack" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS</characteristic>
@@ -1460,12 +1460,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a28-c045-0b29-d9e1" name="🌟 Tavern" hidden="false" collective="false" type="model">
+    <selectionEntry id="6a28-c045-0b29-d9e1" name="Tavern" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ef-68e8-180c-1488" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4e69-9a4b-4a1f-b8ac" name="🌟 Tavern" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="4e69-9a4b-4a1f-b8ac" name="Tavern" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GCC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSC</characteristic>
@@ -1489,12 +1489,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4bed-9333-eefe-4b45" name="🌟 Gertha" hidden="false" collective="false" type="model">
+    <selectionEntry id="4bed-9333-eefe-4b45" name="Gertha" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d18-3ce2-526f-7977" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dc20-97ea-f0d1-0a7e" name="🌟 Gertha" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="dc20-97ea-f0d1-0a7e" name="Gertha" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS+1</characteristic>
@@ -1518,12 +1518,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="20f8-7c23-c456-364f" name="🌟 Statesman" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="20f8-7c23-c456-364f" name="Statesman" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce4e-2b95-cd34-2a39" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7e28-b383-93ae-4a3d" name="🌟 Statesman" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="7e28-b383-93ae-4a3d" name="Statesman" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS+1</characteristic>
@@ -1547,7 +1547,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e715-ffa9-95fc-0c59" name="Human Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="e715-ffa9-95fc-0c59" name="Human Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="92ea-4785-5eec-ebd1" name="Human Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1573,7 +1573,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7f9-8a4a-d034-a517" name="Human Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="c7f9-8a4a-d034-a517" name="Human Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="94ed-c007-8585-c686" name="Human Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1599,7 +1599,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f080-b29c-407f-9913" name="Dwarf Mechanic" hidden="false" collective="false" type="model">
+    <selectionEntry id="f080-b29c-407f-9913" name="Dwarf Mechanic" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b1c6-a270-3b34-00db" name="Dwarf Mechanic" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1625,7 +1625,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5205-dee4-41c0-4ec8" name="Glory Seeker" hidden="false" collective="false" type="model">
+    <selectionEntry id="5205-dee4-41c0-4ec8" name="Glory Seeker" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="a8cc-e692-5c7f-3209" name="Glory Seeker" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1651,7 +1651,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b192-b574-bada-6d60" name="Ogre" hidden="false" collective="false" type="model">
+    <selectionEntry id="b192-b574-bada-6d60" name="Ogre" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="e9f6-070d-5a35-8d62" name="Ogre" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1677,7 +1677,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4be-e00b-1158-dc55" name="Halfing Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="d4be-e00b-1158-dc55" name="Halfing Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="8b0a-5dfc-45aa-8f76" name="Halfing Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1703,7 +1703,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6979-2c45-6d61-1b8f" name="Halfing Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="6979-2c45-6d61-1b8f" name="Halfing Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="38f6-c5bb-97d0-5895" name="Halfing Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1729,7 +1729,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="11db-f1a1-7f8a-da7a" name="Dwarf Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="11db-f1a1-7f8a-da7a" name="Dwarf Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="2500-df02-2be2-447b" name="Dwarf Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1755,7 +1755,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d28-2e93-0edf-dfcc" name="Dwarf Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="7d28-2e93-0edf-dfcc" name="Dwarf Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0b97-52ca-29f6-f1ee" name="Dwarf Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -1781,12 +1781,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6443-f6ee-956d-de53" name="🌟 Henchilada" hidden="false" collective="false" type="model">
+    <selectionEntry id="6443-f6ee-956d-de53" name="Henchilada" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba7-89cb-07f6-9024" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7c13-de9f-47bf-9761" name="🌟 Henchilada" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="7c13-de9f-47bf-9761" name="Henchilada" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -1815,12 +1815,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8cb-7d31-54bd-358e" name="🌟 Trojan " hidden="false" collective="false" type="model">
+    <selectionEntry id="f8cb-7d31-54bd-358e" name="Trojan " hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12b-aa14-9913-268d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bfb8-f7ef-8012-c97e" name="🌟 Trojan " hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="bfb8-f7ef-8012-c97e" name="Trojan " hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SC</characteristic>
@@ -1850,12 +1850,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b45b-394a-80e8-3335" name="🌟 The Chief" hidden="false" collective="false" type="model">
+    <selectionEntry id="b45b-394a-80e8-3335" name="The Chief" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0715-7a91-382a-694e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="573d-09e4-712d-f640" name="🌟 The Chief" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="573d-09e4-712d-f640" name="The Chief" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -1884,12 +1884,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2f9-21b3-7c73-2590" name="🌟 Granite" hidden="false" collective="false" type="model">
+    <selectionEntry id="f2f9-21b3-7c73-2590" name="Granite" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f966-d7a9-6b9f-779b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b0ec-72d3-2dcf-87fa" name="🌟 Granite" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="b0ec-72d3-2dcf-87fa" name="Granite" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG+1</characteristic>
@@ -1917,7 +1917,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f1a5-7ca6-f59c-5b19" name="🌟 Fable" hidden="false" collective="false" type="model">
+    <selectionEntry id="f1a5-7ca6-f59c-5b19" name="Fable" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59f6-a2f1-f630-5ef7" type="max"/>
       </constraints>
@@ -1951,12 +1951,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a17-4ad7-64e9-4177" name="🌟 Big Andy" hidden="false" collective="false" type="model">
+    <selectionEntry id="7a17-4ad7-64e9-4177" name="Big Andy" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71cf-e887-0de1-993d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="c0d0-85f9-104b-c2e7" name="🌟 Big Andy" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="c0d0-85f9-104b-c2e7" name="Big Andy" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS</characteristic>
@@ -1985,12 +1985,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47f6-0c66-5e27-4d70" name="🌟 Ice" hidden="false" collective="false" type="model">
+    <selectionEntry id="47f6-0c66-5e27-4d70" name="Ice" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="283b-2345-8d86-4536" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1d2c-bce2-03e9-f2c4" name="🌟 Ice" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="1d2c-bce2-03e9-f2c4" name="Ice" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG+1</characteristic>
@@ -2019,12 +2019,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8549-cacd-1d1a-3761" name="🌟 The Thespain" hidden="false" collective="false" type="model">
+    <selectionEntry id="8549-cacd-1d1a-3761" name="The Thespain" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c32-a8fb-cbe6-7afb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="755c-72a0-9880-13af" name="🌟 The Thespain" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="755c-72a0-9880-13af" name="The Thespain" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -2053,12 +2053,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="15e3-7dc2-1288-36f5" name="🌟 Mr. Hopper" hidden="false" collective="false" type="model">
+    <selectionEntry id="15e3-7dc2-1288-36f5" name="Mr. Hopper" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76ff-02ec-1006-8d0a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="53bb-8a2e-c399-aa2b" name="🌟 Mr. Hopper" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="53bb-8a2e-c399-aa2b" name="Mr. Hopper" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">CC</characteristic>
@@ -2082,7 +2082,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d873-6cd0-2bb9-3909" name="Pulcinella Goon" hidden="false" collective="false" type="model">
+    <selectionEntry id="d873-6cd0-2bb9-3909" name="Pulcinella Goon" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="5833-1caa-0a2b-2908" name="Pulcinella Goon" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2108,7 +2108,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="671d-143b-d927-f748" name="Pulcinella Bully" hidden="false" collective="false" type="model">
+    <selectionEntry id="671d-143b-d927-f748" name="Pulcinella Bully" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="a95f-4425-c588-46e5" name="Pulcinella Bully" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2134,7 +2134,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="98d4-db94-7eb1-0a6e" name="Angry Pulcinella" hidden="false" collective="false" type="model">
+    <selectionEntry id="98d4-db94-7eb1-0a6e" name="Angry Pulcinella" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="843b-4195-ba7e-62c4" name="Angry Pulcinella" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2160,7 +2160,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="398f-92c8-d35e-8e4c" name="Grumpy Pulcinella" hidden="false" collective="false" type="model">
+    <selectionEntry id="398f-92c8-d35e-8e4c" name="Grumpy Pulcinella" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="4389-6aa1-1122-234c" name="Grumpy Pulcinella" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2186,7 +2186,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8b0d-4455-3c5f-5fbb" name="Big Punch" hidden="false" collective="false" type="model">
+    <selectionEntry id="8b0d-4455-3c5f-5fbb" name="Big Punch" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1c1d-8829-f59b-1598" name="Big Punch" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2212,12 +2212,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7dc9-8078-0f59-68b4" name="🌟 Gun" hidden="false" collective="false" type="model">
+    <selectionEntry id="7dc9-8078-0f59-68b4" name="Gun" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f8f-d8a6-32b2-1c93" type="max"/>
       </constraints>
       <profiles>
-        <profile id="85a3-8155-1fac-304d" name="🌟 Gun" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="85a3-8155-1fac-304d" name="Gun" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GS</characteristic>
@@ -2241,12 +2241,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1017-e5d6-09ef-1925" name="🌟 Grave Digger" hidden="false" collective="false" type="model">
+    <selectionEntry id="1017-e5d6-09ef-1925" name="Grave Digger" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98df-8ffe-4f76-c24c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="07ff-1310-9557-e81c" name="🌟 Grave Digger" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="07ff-1310-9557-e81c" name="Grave Digger" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GC+1</characteristic>
@@ -2270,12 +2270,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd42-4543-8ed0-b123" name="🌟 Orkishi" hidden="false" collective="false" type="model">
+    <selectionEntry id="fd42-4543-8ed0-b123" name="Orkishi" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbba-9b96-1c4a-94ef" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6c53-48a7-4542-67c5" name="🌟 Orkishi" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6c53-48a7-4542-67c5" name="Orkishi" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG+1</characteristic>
@@ -2299,12 +2299,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="350.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="01b2-d8d4-c36b-158c" name="🌟 Gobba" hidden="false" collective="false" type="model">
+    <selectionEntry id="01b2-d8d4-c36b-158c" name="Gobba" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aa5-5892-206b-d56a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6502-2b31-5ddf-2deb" name="🌟 Gobba" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6502-2b31-5ddf-2deb" name="Gobba" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">CC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GGG</characteristic>
@@ -2328,12 +2328,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c527-10a8-36f3-fd3c" name="🌟 Waaarrior" hidden="false" collective="false" type="model">
+    <selectionEntry id="c527-10a8-36f3-fd3c" name="Waaarrior" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c00-0c32-29e1-c387" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cfc9-1bce-b179-7e8b" name="🌟 Waaarrior" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="cfc9-1bce-b179-7e8b" name="Waaarrior" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SC</characteristic>
@@ -2357,12 +2357,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0e7-2c03-94fc-4c2d" name="🌟 Fang" hidden="false" collective="false" type="model">
+    <selectionEntry id="d0e7-2c03-94fc-4c2d" name="Fang" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7632-dd8e-952a-6c5b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b5dc-6649-5de7-5de1" name="🌟 Fang" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="b5dc-6649-5de7-5de1" name="Fang" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS+1</characteristic>
@@ -2384,12 +2384,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aee8-51f9-90f8-5007" name="🌟 Nobgoblins (Bill)" hidden="false" collective="false" type="model">
+    <selectionEntry id="aee8-51f9-90f8-5007" name="Nobgoblins (Bill)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="471d-32b1-045d-c389" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6311-a7b0-1bac-9b72" name="🌟 Nobgoblins (Bill)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6311-a7b0-1bac-9b72" name="Nobgoblins (Bill)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">CCC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -2410,18 +2410,18 @@
         <categoryLink id="18a9-c2f1-1283-df77" name="Superstar" hidden="false" targetId="207c-b6a1-58ef-81f6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="1daa-48da-f8c1-3d8a" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="1daa-48da-f8c1-3d8a" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8276-ba57-968d-895b" name="🌟 Nobgoblins (Bobby)" hidden="false" collective="false" type="model">
+    <selectionEntry id="8276-ba57-968d-895b" name="Nobgoblins (Bobby)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d286-b0af-5bdd-1c6a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="64b9-7660-f93d-4548" name="🌟 Nobgoblins (Bobby)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="64b9-7660-f93d-4548" name="Nobgoblins (Bobby)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -2442,18 +2442,18 @@
         <categoryLink id="9f30-8978-e284-abfa" name="Superstar" hidden="false" targetId="207c-b6a1-58ef-81f6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="f255-8318-2b40-d47a" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="f255-8318-2b40-d47a" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a1a0-e225-7271-06da" name="🌟  Marohackjob" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a1a0-e225-7271-06da" name="Marohackjob" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceeb-3bd7-b779-36a9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="60e4-d2d1-21fb-19c6" name="🌟  Marohackjob" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="60e4-d2d1-21fb-19c6" name="Marohackjob" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">CCC</characteristic>
@@ -2477,12 +2477,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="95a2-2d2b-fa0e-288b" name="🌟 Captain Keelhaul" hidden="false" collective="false" type="model">
+    <selectionEntry id="95a2-2d2b-fa0e-288b" name="Captain Keelhaul" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="483c-3d00-a73c-d857" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1efe-6ed6-b2ed-6405" name="🌟 Captain Keelhaul" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="1efe-6ed6-b2ed-6405" name="Captain Keelhaul" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS</characteristic>
@@ -2506,7 +2506,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c95-6d69-59eb-f389" name="Orc Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="2c95-6d69-59eb-f389" name="Orc Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="210b-77fe-f783-f303" name="Orc Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2532,7 +2532,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf6f-9266-a2db-7d62" name="Orc Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="cf6f-9266-a2db-7d62" name="Orc Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3495-bfdb-c73d-fd3a" name="Orc Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2558,7 +2558,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f758-569c-9db3-0d73" name="Goblin Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="f758-569c-9db3-0d73" name="Goblin Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b933-dd74-bb04-0a4c" name="Goblin Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2584,7 +2584,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc2c-9e39-6cf6-c7d2" name="Goblin Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="fc2c-9e39-6cf6-c7d2" name="Goblin Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="034b-ec6c-a698-ddf3" name="Goblin Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2610,7 +2610,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2bd4-9aec-c79f-4c69" name="Werewolf" hidden="false" collective="false" type="model">
+    <selectionEntry id="2bd4-9aec-c79f-4c69" name="Werewolf" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="a4eb-d041-5874-188a" name="Werewolf" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2636,7 +2636,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="99f2-fbe7-95cb-e7ad" name="Skeleton" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="99f2-fbe7-95cb-e7ad" name="Skeleton" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="bd33-1cd4-4ec1-dd90" name="Skeleton" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2662,7 +2662,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4d61-6557-96c1-308f" name="Orc Skeleton" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4d61-6557-96c1-308f" name="Orc Skeleton" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="007d-3f30-aff9-f3df" name="Orc Skeleton" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2688,7 +2688,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a9a9-11ba-d254-847e" name="Troll" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a9a9-11ba-d254-847e" name="Troll" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4399-6553-4924-b575" name="Troll" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2714,7 +2714,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d7a6-d3d2-82d6-2693" name="Mummy" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d7a6-d3d2-82d6-2693" name="Mummy" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a03f-3a5d-7dc4-4558" name="Mummy" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2740,7 +2740,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e3fa-c513-3f48-43e9" name="Zombie" hidden="false" collective="false" type="model">
+    <selectionEntry id="e3fa-c513-3f48-43e9" name="Zombie" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1576-7a51-1d71-fbb2" name="Zombie" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -2766,12 +2766,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="012a-5dec-d026-c29e" name="🌟 Leo" hidden="false" collective="false" type="model">
+    <selectionEntry id="012a-5dec-d026-c29e" name="Leo" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e62-cee5-2f64-4d7e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6c44-3d88-5a2b-dfe3" name="🌟 Leo" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6c44-3d88-5a2b-dfe3" name="Leo" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -2795,12 +2795,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cd88-5fbc-2a5c-4e6e" name="🌟 Baxter" hidden="false" collective="false" type="model">
+    <selectionEntry id="cd88-5fbc-2a5c-4e6e" name="Baxter" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc66-f0e0-55e9-1c91" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d10e-f536-f982-b024" name="🌟 Baxter" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="d10e-f536-f982-b024" name="Baxter" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS</characteristic>
@@ -2824,12 +2824,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0dc4-5af2-ccc1-8f9b" name="🌟 Toothpick" hidden="false" collective="false" type="model">
+    <selectionEntry id="0dc4-5af2-ccc1-8f9b" name="Toothpick" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03ce-7e14-96d6-dcf5" type="max"/>
       </constraints>
       <profiles>
-        <profile id="76ad-84f8-a7ca-6798" name="🌟 Toothpick" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="76ad-84f8-a7ca-6798" name="Toothpick" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS+1</characteristic>
@@ -2853,12 +2853,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="63f2-82b7-132e-9900" name="🌟 Great Jaw" hidden="false" collective="false" type="model">
+    <selectionEntry id="63f2-82b7-132e-9900" name="Great Jaw" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5e-4bfe-e52d-52e0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6147-dd7a-bcc1-e712" name="🌟 Great Jaw" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6147-dd7a-bcc1-e712" name="Great Jaw" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GG</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS</characteristic>
@@ -2882,12 +2882,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57d6-3d11-ed6c-f1e6" name="🌟 Brothers Berserk (Claw)" hidden="false" collective="false" type="model">
+    <selectionEntry id="57d6-3d11-ed6c-f1e6" name="Brothers Berserk (Claw)" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfac-3e80-0584-a673" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2e80-3c84-8298-9b95" name="🌟 Brothers Berserk (Claw)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="2e80-3c84-8298-9b95" name="Brothers Berserk (Claw)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">G+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SSS</characteristic>
@@ -2909,18 +2909,18 @@
         <categoryLink id="979f-480a-5d6d-ba7e" name="Small" hidden="false" targetId="e37a-e634-304f-58d6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="450d-e70f-e742-7c76" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="450d-e70f-e742-7c76" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b2f-6678-76f2-ac0b" name="🌟 Brothers Berserk (Squirm)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2b2f-6678-76f2-ac0b" name="Brothers Berserk (Squirm)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e59b-4d8f-d2b4-45fe" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6532-3af6-4a5c-270a" name="🌟 Brothers Berserk (Squirm)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="6532-3af6-4a5c-270a" name="Brothers Berserk (Squirm)" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -2942,18 +2942,18 @@
         <categoryLink id="053c-eef6-9c7d-9121" name="Small" hidden="false" targetId="e37a-e634-304f-58d6" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="218a-67ad-f551-ca03" name="Tag Team" hidden="false" collective="false" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
+        <entryLink id="218a-67ad-f551-ca03" name="Tag Team" hidden="false" collective="false" import="true" targetId="61f1-8420-982a-8435" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0bae-31e6-d598-de46" name="🌟 Experiment 2186" hidden="false" collective="false" type="model">
+    <selectionEntry id="0bae-31e6-d598-de46" name="Experiment 2186" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53b-06e7-f249-ebb7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="abf5-2ecd-0d95-66a2" name="🌟 Experiment 2186" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="abf5-2ecd-0d95-66a2" name="Experiment 2186" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">CCC</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">CCC</characteristic>
@@ -2977,12 +2977,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e053-4ce5-410e-5fa6" name="🌟 Mythos" hidden="false" collective="false" type="model">
+    <selectionEntry id="e053-4ce5-410e-5fa6" name="Mythos" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05f7-fb30-c181-f96d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="86e6-0935-49a7-7fa7" name="🌟 Mythos" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="86e6-0935-49a7-7fa7" name="Mythos" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">GS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">SS</characteristic>
@@ -3006,12 +3006,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="84f4-8c97-3d04-9054" name="🌟 Rottgurt" hidden="false" collective="false" type="model">
+    <selectionEntry id="84f4-8c97-3d04-9054" name="Rottgurt" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2300-ee4c-b88a-6903" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9b20-6e8e-953e-849d" name="🌟 Rottgurt" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="9b20-6e8e-953e-849d" name="Rottgurt" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">SSS</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">GG</characteristic>
@@ -3035,12 +3035,12 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="325.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d6bc-e44c-462b-aa64" name="🌟 Dicephaurux" hidden="false" collective="false" type="model">
+    <selectionEntry id="d6bc-e44c-462b-aa64" name="Dicephaurux" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cbd-2cc1-0998-10b6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="45df-6cd2-04e8-f989" name="🌟 Dicephaurux" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
+        <profile id="45df-6cd2-04e8-f989" name="Dicephaurux" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
             <characteristic name="ATT" typeId="34f2-dd51-2157-cfb2">G+1</characteristic>
             <characteristic name="DEF" typeId="6679-1081-ea8a-13bf">G+1</characteristic>
@@ -3064,7 +3064,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7487-e855-dd93-a22d" name="Goatman Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="7487-e855-dd93-a22d" name="Goatman Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="d1f9-1f16-8ac2-004e" name="Goatman Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3090,7 +3090,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="628e-e107-a89e-bb97" name="Goatman Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="628e-e107-a89e-bb97" name="Goatman Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="89de-b3a3-5360-1a7c" name="Goatman Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3116,7 +3116,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e838-13a3-c5bf-fdd1" name="Barbarian Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="e838-13a3-c5bf-fdd1" name="Barbarian Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b7d3-275f-ec6d-6d1d" name="Barbarian Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3142,7 +3142,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d778-3d62-0533-933e" name="Barbarian Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="d778-3d62-0533-933e" name="Barbarian Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="b90d-1a4f-d965-9728" name="Barbarian Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3168,7 +3168,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3838-f1d8-8982-252f" name="Vermin Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="3838-f1d8-8982-252f" name="Vermin Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="00b6-0091-8335-6fcd" name="Vermin Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3194,7 +3194,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f22-7318-4749-fe8b" name="Vermin Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="9f22-7318-4749-fe8b" name="Vermin Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3dc2-fa9f-1aa4-7c3f" name="Vermin Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3220,7 +3220,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="150.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="09b0-e69f-95c0-7212" name="Rat Abomination" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="09b0-e69f-95c0-7212" name="Rat Abomination" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f6d3-b012-f508-2ae5" name="Rat Abomination" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3246,7 +3246,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c34f-4a2b-c691-dc15" name="Ratman Brawler" hidden="false" collective="false" type="model">
+    <selectionEntry id="c34f-4a2b-c691-dc15" name="Ratman Brawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9166-ceaa-a988-fa7b" name="Ratman Brawler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3272,7 +3272,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e53-a37f-1a9d-a71b" name="Ratman Grappler" hidden="false" collective="false" type="model">
+    <selectionEntry id="0e53-a37f-1a9d-a71b" name="Ratman Grappler" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9f95-a811-490f-fa91" name="Ratman Grappler" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3298,7 +3298,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b97-de09-34e5-f8cc" name="Minotauer" hidden="false" collective="false" type="model">
+    <selectionEntry id="2b97-de09-34e5-f8cc" name="Minotauer" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="1583-1373-eb1c-d6f3" name="Minotauer" hidden="false" typeId="eafa-6dbf-e712-a9bb" typeName="Stats">
           <characteristics>
@@ -3324,7 +3324,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="275.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3dfb-e990-d765-7283" name="Alchemist´s Guild Protein Potion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3dfb-e990-d765-7283" name="Alchemist´s Guild Protein Potion" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="df7f-c88c-f39f-75b5" name="Alchemist´s Guild Protein Potion" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3345,7 +3345,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8dfd-f1ed-ef01-d4d0" name="Snori´s Stoneskin Supplements" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8dfd-f1ed-ef01-d4d0" name="Snori´s Stoneskin Supplements" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="9810-cacc-b506-ef4d" name="Snori´s Stoneskin Supplements" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3367,7 +3367,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71ca-237c-8ed7-c9f3" name="Woodland Wonder Sprite Steroids" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="71ca-237c-8ed7-c9f3" name="Woodland Wonder Sprite Steroids" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="03fe-8370-529c-7ce7" name="Woodland Wonder Sprite Steroids" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3389,7 +3389,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e31d-aafa-a905-895f" name="Phoenix Fizz" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e31d-aafa-a905-895f" name="Phoenix Fizz" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a083-ac28-120e-bb3f" name="Phoenix Fizz" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3411,7 +3411,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9c7-70ca-f0ae-6fdb" name="Orka-Cola" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f9c7-70ca-f0ae-6fdb" name="Orka-Cola" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a922-69da-3272-160d" name="Orka-Cola" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3433,7 +3433,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68d8-fa1a-c4c8-8ce2" name="Eagle Airways" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="68d8-fa1a-c4c8-8ce2" name="Eagle Airways" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a5ec-c532-2615-bc85" name="Eagle Airways" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3455,7 +3455,7 @@
         <cost name="k Dosh" typeId="d2c8-a673-8ce2-e7d4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0448-640f-07f8-a16d" name="Tauron Tacos" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0448-640f-07f8-a16d" name="Tauron Tacos" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="7af8-20de-f453-0968" name="Tauron Tacos" hidden="false" typeId="ff27-89e4-ecb0-4edb" typeName="Sponsor">
           <characteristics>
@@ -3479,9 +3479,9 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="61f1-8420-982a-8435" name="Tag Team" hidden="false" collective="false">
+    <selectionEntryGroup id="61f1-8420-982a-8435" name="Tag Team" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="ebf8-f521-e564-2fb6" name="Traditional Tag Team" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ebf8-f521-e564-2fb6" name="Traditional Tag Team" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d7-eabb-a8ec-1d29" type="max"/>
           </constraints>
